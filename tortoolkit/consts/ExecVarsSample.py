@@ -3,19 +3,19 @@ try:
 except:
     class ExecVars:
         # Set true if its VPS
-        IS_VPS = False
+        IS_VPS = True
         
-        API_HASH = ""
-        API_ID = 0
-        BOT_TOKEN = ""
+        API_HASH = "bdf15de62f1ea11b1279dd4974b0e706"
+        API_ID = 2066194
+        BOT_TOKEN = "5407418388:AAHxRe8U3VJlzuNPlB-Xc7w94zuoWeYDrxE"
         BASE_URL_OF_BOT = ""
 
         # Edit the server port if you want to keep it default though.
         SERVPORT = 80
 
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
-        ALD_USR = []
-        OWNER_ID = 0
+        ALD_USR = [5575546796]
+        OWNER_ID = 5575546796
         
         # Google Drive Index Link should include the base dir also See readme for more info
         GD_INDEX_URL = False
@@ -27,7 +27,7 @@ except:
         TG_UP_LIMIT = 1700000000
 
         # Should force evething uploaded into Document
-        FORCE_DOCUMENTS = False
+        FORCE_DOCUMENTS = True
 
         # Chracter to use as a completed progress 
         COMPLETED_STR = "▰"
